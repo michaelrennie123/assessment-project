@@ -1,0 +1,19 @@
+<main class="main">
+  <div class="parent">
+    <div class="header">
+      <span>Assessment Project</span>
+    </div>
+    <div class="navbar">
+      <div
+        class="nav_item"
+        *ngFor="let item of navItems"
+        [routerLink]="item.path"
+        [class.active]="isActiveRoute(item.path)"
+      >
+        <span class="pi {{ item.icon }}"></span>
+        <span>{{ item.label }}</span>
+      </div>
+    </div>
+    <div class="content"><router-outlet /></div>
+  </div>
+</main>
