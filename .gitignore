@@ -1,0 +1,43 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.suo
+*.sln.ide
+*.vscode/
+*.db
+
+# ASP.NET Core
+wwwroot/
+appsettings*.json
+*.log
+
+# Entity Framework Core
+migrations/
+*.db
+
+# Angular
+node_modules/
+dist/
+out-tsc/
+package-lock.json
+yarn.lock
+src/**/*.js
+src/**/*.map
+src/**/*.d.ts
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.lock
+
+# Other files to ignore
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
